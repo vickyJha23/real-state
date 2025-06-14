@@ -16,7 +16,7 @@ const HomeHero = () => {
    }, [isVideeModelOpen]);
 
   return (
-    <div className='flex flex-col lg:flex-row justify-center mt-20'>
+    <div className='w-full max-w-[1170px] mx-auto flex flex-col lg:flex-row justify-center mt-20'>
         {/* title */}
       <div className='px-4 flex flex-col justify-center gap-2'>
         <h3 className='text-lg font-montserrat font-semibold'>

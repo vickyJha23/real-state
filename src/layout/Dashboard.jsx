@@ -7,7 +7,7 @@ import Header from '../components/Header'
 
 const Dashboard = () => {
   return (
-    <div className='min-h-screen'>
+    <div className='overflow-hidden'>
         <Header />
         <main>
             <Outlet />
